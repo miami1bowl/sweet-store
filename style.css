@@ -1,0 +1,374 @@
+body {
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: hotpink;
+
+}
+
+.main-nav {
+  padding: 10px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.logo img {
+  height: 80px;
+  width: auto;
+}
+
+button {
+  background-color: hotpink;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-style: italic;
+}
+
+.products {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.products h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #ff1493;
+}
+
+.products p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.gallery img {
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  height: 130px;
+  width: 130px;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px 40px;
+  gap: 40px;
+}
+
+.intro-text {
+  width: 40%;
+}
+
+
+.intro p {
+  font-size: 25px;
+}
+
+.products p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  text-align: center;
+  max-width: 600px;
+  margin: 15px auto;
+
+}
+
+.products h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #e91e63;
+}
+
+.highlight-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  text-align: center;
+  max-width: 650px;
+  margin: 20px auto;
+  padding: 15px 20px;
+  background: #fff0f5;
+  border-left: 5px solid #e91e63;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.promo {
+  background: #ffe4f0;
+  /* світло-рожевий */
+  padding: 40px 20px;
+  border-radius: 15px;
+  text-align: center;
+  /* margin: 40px auto; */
+  /* max-width: 800px; */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.promo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff99cc;
+  padding: 20px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.promo-tag {
+  background: #ff66b2;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.promo-btn {
+  background: #ffccf2;
+  border: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #333;
+  box-shadow: 0 4px 0 #cc6699;
+  transition: 0.3s ease;
+}
+
+.promo-btn:hover {
+  background: #ffb3e6;
+  transform: scale(1.05);
+}
+
+.promo-sale {
+  background: #ff3385;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.promo-text {
+  font-size: 18px;
+  color: #444;
+  margin: 15px auto;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.promo-brand {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e91e63;
+}
+
+.products p {
+  font-size: 30px;
+}
+
+body {
+  position: relative;
+  background: #fff5fa;
+  /* дуже ніжний рожевий фон */
+  overflow-x: hidden;
+}
+
+/* Декоративні елементи */
+.bg-element {
+  position: absolute;
+  z-index: -1;
+  /* позаду */
+  opacity: 0.25;
+  /* легка прозорість */
+  border-radius: 50%;
+}
+
+/* Ніжно-рожеві кола */
+.circle1 {
+  width: 180px;
+  height: 180px;
+  /* background: #ffd6e7; */
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/012/981/155/small_2x/text-bubble-star-shape-abstract-with-pink-color-png.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* пастельний рожевий */
+  top: 160px;
+  left: 40px;
+}
+
+.circle2 {
+  width: 220px;
+  height: 220px;
+  /* background: #ffcce1; */
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/012/981/155/small_2x/text-bubble-star-shape-abstract-with-pink-color-png.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* світло-рожевий */
+  bottom: 400px;
+  right: 30px;
+}
+
+.circle3 {
+  width: 140px;
+  height: 140px;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/012/981/155/small_2x/text-bubble-star-shape-abstract-with-pink-color-png.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* майже білий з рожевим */
+  top: 800px;
+  left: 200px;
+}
+.reviews {
+  background: #fff0f6;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 40px auto;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.reviews h2 {
+  font-size: 28px;
+  color: #e91e63;
+  margin-bottom: 30px;
+}
+
+.review-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.review {
+  background: #ffe6f0;
+  padding: 20px;
+  border-radius: 12px;
+  width: 260px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.review:hover {
+  transform: translateY(-5px);
+}
+
+.review img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  width: 80px;
+  height: 80px;
+}
+
+.review p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.review span {
+  font-weight: bold;
+  color: #d81b60;
+}
+
+/*  */
+/*  */.contacts {
+  color: #111;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background: transparent;
+}
+
+.contacts-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contacts h2 {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  color: #0a0a0a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-info {
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  backdrop-filter: blur(10px);
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact-info a:hover {
+  color: #0056b3;
+}
+
+.contact-map iframe {
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro{
+  padding-top: 200px;
+}
+
+#main{
+  width: 100%;
+  margin-bottom: 400px;
+  position: fixed;
+  z-index: 10;
+}
